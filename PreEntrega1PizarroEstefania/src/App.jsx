@@ -9,7 +9,6 @@ import CartWidget from "./Components/CartWidget/CartWidget";
 function App () {
   return (
     <div className="App">
-<CartWidget/>
 <NavBar/>
 <ItemListContainer greeting= 'Bienvenidos a Tienda Mate'/>
     
