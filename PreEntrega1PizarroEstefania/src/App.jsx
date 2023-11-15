@@ -11,7 +11,7 @@ function App () {
     <div className="App">
 <CartWidget/>
 <NavBar/>
-<ItemListContainer greeting= 'Tienda'/>
+<ItemListContainer greeting= 'Bienvenidos a Tienda Mate'/>
     
     </div>
   );

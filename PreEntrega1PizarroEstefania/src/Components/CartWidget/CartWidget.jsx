@@ -1,9 +1,9 @@
-import React from "react";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 const CartWidget =() => {
     return (
         <div>
-            <h3>Soy el carrito</h3>
+            <button> <MdOutlineShoppingCart/> </button>
         </div>
     )
 }
