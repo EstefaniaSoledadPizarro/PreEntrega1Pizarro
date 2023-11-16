@@ -12,6 +12,10 @@
   padding: 10px 450px 20px 450px;
 }
 
+.me-auto{
+  margin: auto;
+}
+
 /*.logo {
   height: 6em;
   padding: 1.5em;

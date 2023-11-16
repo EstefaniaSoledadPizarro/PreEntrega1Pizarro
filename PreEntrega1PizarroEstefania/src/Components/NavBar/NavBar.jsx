@@ -14,8 +14,9 @@ function NavBar() {
             <Nav.Link href="#home">Mates</Nav.Link>
             <Nav.Link href="#features">Termos</Nav.Link>
             <Nav.Link href="#pricing">Bombillas</Nav.Link>
+            </Nav>
             <Nav.Link href="#pricing"> <CartWidget/> </Nav.Link>
-          </Nav>
+            <button id='contadorBtn'>0</button>
         </Container> }
       </Navbar>
       </div>
