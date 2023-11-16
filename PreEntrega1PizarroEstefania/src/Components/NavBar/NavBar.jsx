@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <div>
       <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
+        { <Container>
           <Navbar.Brand href="#home"> <Logo/> </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Mates</Nav.Link>
@@ -16,7 +16,7 @@ function NavBar() {
             <Nav.Link href="#pricing">Bombillas</Nav.Link>
             <Nav.Link href="#pricing"> <CartWidget/> </Nav.Link>
           </Nav>
-        </Container>
+        </Container> }
       </Navbar>
       </div>
   );
