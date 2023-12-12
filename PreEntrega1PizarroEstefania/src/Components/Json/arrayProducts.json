@@ -1,6 +1,6 @@
 [
     {
-      "ID": 1,
+      "id": 1,
       "nombre": "Bombilla acero quirurgico",
       "descripcion": "Bombilla recta de acero niquelado pico rey, paleta filtro, lisa, caño 8mm y pico reforzado de bronce",
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_720524-MLA52687463749_122022-O.webp",
@@ -9,7 +9,7 @@
       "categoria": "bombilla"
     },
     {
-      "ID": 2,
+      "id": 2,
       "nombre": "Bombilla alpaca",
       "descripcion": "Bombilla pico loro de alpaca cincelada, con aplique de bronce, caño 8mm y pico reforzado",
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_623591-MLA69244691646_052023-O.webp",
@@ -18,7 +18,7 @@
       "categoria": "bombilla"
     },
     {
-      "ID": 3,
+      "id": 3,
       "nombre": "Mate de aluminio y calabaza",
       "descripcion": "Calabaza de selección especial, virola de aluminio pulida espejo, forrado en cuero vacuno legítimo natural, costura fina con técnicas especiales, base reforzada de 4 patas firme",
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_793672-MLA51232459545_082022-O.webp",
@@ -27,7 +27,7 @@
       "categoria": "mate"
     },
     {
-      "ID": 4,
+      "id": 4,
       "nombre": "Mate de acero inoxidable",
       "descripcion": "100% acero inoxidable AISI 304,doble pared aislante con superficie antideslizante, fácil de llenar, gracias a su boca ancha",
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_930220-MLA72147666286_102023-O.webp",
@@ -36,7 +36,7 @@
       "categoria": "mate"
     },
     {
-      "ID": 5,
+      "id": 5,
       "nombre": "Termo acero inoxdable",
       "descripcion": "Agua caliente garantizada hasta por 12 horas, capacidad de 1 litro, incluye manija, con sistema antigoteo que evita pérdidas, pico multidireccional que lo hace más práctico y funcional.",
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_835045-MLU72654409669_112023-O.webp",
@@ -45,7 +45,7 @@
       "categoria": "termo"
     },
     {
-      "ID": 6,
+      "id": 6,
       "nombre": "Termo de 1 litro F",
       "descripcion": "Termo de doble pared para mantener la temperatura por más tiempo, capacidad de 1 litro, apertura con pico multidireccional que lo hace más práctico y funcional",
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_834251-MLA54941442741_042023-O.webp",
