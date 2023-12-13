@@ -6,12 +6,10 @@ div {
   h2 {
     font-size: 24px;
     color: #333;
-    transition: transform 0.3s ease-in-out; /* Añade una transición a la propiedad transform */
+    transition: transform 0.3s ease-in-out; 
   }
-  
-  /* Añade el estilo hover para la animación */
   h2:hover {
-    transform: scale(1.1); /* Puedes ajustar el valor según tus preferencias para la escala */
+    transform: scale(1.1); 
   }
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -28,9 +26,9 @@ div {
   h2 {
     font-size: 24px;
     color: #333;
-    animation: bounce 1s infinite; /* Aplica la animación con duración de 1 segundo y se repite infinitamente */
+    animation: bounce 1s infinite; 
   }
   
   h2:hover {
-    animation: none; /* Detiene la animación cuando el mouse está sobre el elemento */
+    animation: none; 
   }
