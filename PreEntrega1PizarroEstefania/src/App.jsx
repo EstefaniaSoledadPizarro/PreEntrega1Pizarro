@@ -3,7 +3,7 @@ import ItemListContainer from "./Components/ItemListContainer/ItemListContainer"
 import './App.css';
 import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Error from './Components/Error'
+import Error from './Components/NavBar/Error'
 import CartWidget from "./components/CartWidget/CartWidget";
 
 
