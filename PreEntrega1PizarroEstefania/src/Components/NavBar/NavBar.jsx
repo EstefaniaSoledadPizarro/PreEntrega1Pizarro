@@ -17,14 +17,15 @@ function NavBar() {
         <Navbar.Collapse id="navbar-nav">
           <Nav className="me-auto">
             <NavLink to="/" className='pestaña'>Home</NavLink>
-            <NavLink to="/category/celulares">Mates</NavLink>
+            <NavLink to="/category/mates">Mates</NavLink>
             <NavLink to="/category/termos">Termos</NavLink>
             <NavLink to="/category/bombillas">Bombillas</NavLink>
           </Nav>
           <NavLink to="/cart" className="navbar-cart">
-            <CartWidget />
+            <button className="bi bi-cart">
+              <CartWidget />
+            </button>
           </NavLink>
-          <button id='contadorBtn'>0</button>
         </Navbar.Collapse>
       </Container>
     </Navbar >
