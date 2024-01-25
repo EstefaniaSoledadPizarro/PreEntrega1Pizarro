@@ -15,13 +15,13 @@ const ItemListContainer = () => {
          const queryFilter = query(queryCollection, where('categoryId', '==', id));
          getDocs(queryFilter).then((res) => {
             const data = res.docs.map((p) => ({ id: p.id, ...p.data() }));
-            console.log(data); // Verifica los datos en la consola
+            console.log(data);
             setItem(data);
          });
       } else {
          getDocs(queryCollection).then((res) => {
             const data = res.docs.map((p) => ({ id: p.id, ...p.data() }));
-            console.log(data); // Verifica los datos en la consola
+            console.log(data);
             setItem(data);
          });
       }

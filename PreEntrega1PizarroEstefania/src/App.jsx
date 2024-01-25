@@ -1,13 +1,13 @@
 
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+import NavBar from './Components/NavBar/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { CheckOut } from '../src/components/CheckOut/CheckOut';
+import { CheckOut } from '../src/Components/CheckOut/CheckOut';
 import Error from './Components/NavBar/Error';
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './Components/Cart/Cart';
 import CartProvider from './Components/Context/CartContext';
-import './components/Firebase/firebase'
+import './Components/Firebase/firebase'
 
 function App() {
   return (

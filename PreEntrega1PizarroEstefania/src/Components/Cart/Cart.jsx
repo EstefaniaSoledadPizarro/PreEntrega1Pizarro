@@ -5,23 +5,20 @@ import ItemCart from '../ItemCart/ItemCart';
 
 const Cart = () => {
   const { cart, totalPrice } = useCartContext();
- 
   if (cart.length === 0) {
     return (
       <>
-        <p>No hay elementos en el carrito</p>
+        <p>Tu carrito esta vacio</p>
         <Link to="/">Hacer compras</Link>
       </>
     );
   }
-
   return (
     <>
       {cart.map((product) => (
         <ItemCart key={product.id} product={product} />
       ))}
-      <p>total: $ {totalPrice()}</p>
-   
+      <p>Total: $ {totalPrice()}</p>
       <Link to="/checkout">
         {' '}
         <button className="btn-total">Finalizar Compra</button>

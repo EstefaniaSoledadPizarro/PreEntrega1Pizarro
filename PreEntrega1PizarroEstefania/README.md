@@ -1,8 +1,22 @@
-# React + Vite
+Proyecto Vite + React E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Este proyecto es una aplicación de compra en línea desarrollada con Vite y React. Ofrece una plataforma para visualizar y comprar productos, aprovechando la rapidez de Vite en el desarrollo y React para interfaces de usuario dinámicas.
 
-Currently, two official plugins are available:
+Características Principales:
+- React: Utiliza la biblioteca para construir componentes reutilizables y crear interfaces de usuario eficientes.- Vite: Aprovecha las capacidades de desarrollo rápido para una experiencia sin configuración.
+- Gestión de Estado: Implementa una gestión de estado eficiente para mantener la coherencia de la aplicación.
+- Estilos Reutilizables: Utiliza CSS modular para crear estilos mantenibles y reutilizables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desarrollo Local:
+ Para comenzar localmente, ejecuta npm run dev asegurándote de estar en la carpeta correspondiente. Accede a la aplicación en localhost:5173/.
+ 
+Requisitos Previos:
+ Asegúrate de tener Node.js y npm instalados en tu dispositivo antes de ejecutar la aplicación.
+ 
+Instalación:
+1- Clona este repositorio en tu máquina local: git clone https://github.com/EstefaniaSoledadPizarro/PreEntrega1Pizarro
+2- Navega al directorio del proyecto: cd PreEntrega1PizarroEstefania
+3- Instala las dependencias: npm install
+4- Inicia la aplicación: npm run dev
+
+Accede a la app en el navegador que prefieras con: http://localhost:5173 
