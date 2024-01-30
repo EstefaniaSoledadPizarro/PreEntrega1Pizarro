@@ -28,7 +28,7 @@ const ItemListContainer = () => {
    }, [id]);
 
    return (
-      <div className='container'>
+      <div style={{ background: 'ivory', minHeight: 'calc(100vh - 58px)' }}>
          <div className='row'>
             <ItemList item={item} />
          </div>

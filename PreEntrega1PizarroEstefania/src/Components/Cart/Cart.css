@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Cart-container {
+    width: 1365px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .Cart-message {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: larger;
+  }
+  
+  .Cart-products {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .Cart-total {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .btn-total {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-total:hover {
+    background-color: #45a049; 
+  }

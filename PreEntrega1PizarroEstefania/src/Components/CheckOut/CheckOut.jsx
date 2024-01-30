@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useCartContext } from '../Context/CartContext';
 import { getFirestore, collection, addDoc, updateDoc, doc, getDoc } from 'firebase/firestore';
+import './CheckOut.css'
 
 export const CheckOut = () => {
   const [nombre, setNombre] = useState('');
@@ -74,7 +75,7 @@ export const CheckOut = () => {
 
   };
   return (
-    <div>
+    <div className="container-form">
       <h2> Complete el formulario para confirmar la compra </h2>
       <form onSubmit={manejadorFormulario}>
         {cart.map((producto) => (
